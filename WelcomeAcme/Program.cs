@@ -8,7 +8,7 @@ namespace WelcomeAcme
         {
             Console.WriteLine("Welcome to The Tech Academy Accounting Systems \n");
             Console.WriteLine("Remember, we\'re \"accounting\" on you!");
-            Console.ReadLine(); 
+            Console.ReadLine();  
         }
     }
 }
