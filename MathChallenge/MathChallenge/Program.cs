@@ -16,8 +16,10 @@ namespace MathChallenge
             int totalMultiply = numA * numB;
             Console.WriteLine("Multiply: "+ totalMultiply);
             int totalDivide = numA / numB;
-            Console.WriteLine("Divide: " + totalDivide);
+            Console.WriteLine("Divide: " + totalDivide.ToString());
             Console.ReadLine();
+
+
         }
     }
 }
