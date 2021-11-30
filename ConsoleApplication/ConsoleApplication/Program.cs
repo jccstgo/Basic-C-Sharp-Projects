@@ -11,8 +11,8 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             int input = Convert.ToInt32(Console.ReadLine());
-            int multiplies = input % 7;
-            Console.WriteLine("Result Multiplies: "+multiplies);
+            int result = input % 7;
+            Console.WriteLine(result);
             Console.ReadLine();
             
         }
