@@ -20,6 +20,8 @@ namespace DailyReport
             
             Console.WriteLine("What page number?");
             string page = Console.ReadLine();
+            //This parse the string answer to int
+            int pageNumber = Convert.ToInt32(page);
             
             Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false.\"");
             string help = Console.ReadLine();
@@ -34,6 +36,8 @@ namespace DailyReport
             
             Console.WriteLine("How many hours did you study today?");
             string hours = Console.ReadLine();
+            //This parse the string answer to int
+            int hourStudy = Convert.ToInt32(hours);
             //End of the Questions/Answers section 
             Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
             
