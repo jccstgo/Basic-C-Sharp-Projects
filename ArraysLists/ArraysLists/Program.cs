@@ -18,6 +18,8 @@ namespace ArraysLists
             numArray[4] = 4000;
 
             int[] numArray1 = new int[] { 5, 10, 200, 300, 4000 };
+            Console.WriteLine(numArray[3]);
+            Console.ReadLine();
          }
     }
 }

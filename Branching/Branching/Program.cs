@@ -24,14 +24,15 @@ namespace Branching
                 float height = float.Parse(Console.ReadLine());//Read the height and convert the string to float
                 Console.WriteLine("Please enter the package length:");
                 float lenght = float.Parse(Console.ReadLine());//Read the length and convert the string to float
-                float dimension = width * height * lenght;//Calculate the dimension
-                if (dimension > 50)
+                float sumDimension = width + height + lenght;//Calculate the dimension
+                if (sumDimension > 50)
                 {
                     Console.WriteLine("Package too big to be shipped via Package Express.");
                 }
                 else
-                { 
-                    float quote = (weight * dimension) / 100;//Calculate the quote
+                {
+                    float multiplyDimension = width * height * lenght;
+                    float quote = (weight * multiplyDimension) / 100;//Calculate the quote
                     Console.WriteLine("Your estimated total for shipping this package is: $" + quote);//Print the result of the quote
                     Console.WriteLine("Thank you!");
                 }                
