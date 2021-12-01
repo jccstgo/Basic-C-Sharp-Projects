@@ -4,3 +4,4 @@ C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ArraysLists\ArraysL
 C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ArraysLists\ArraysLists\obj\Debug\ArraysLists.csproj.CoreCompileInputs.cache
 C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ArraysLists\ArraysLists\obj\Debug\ArraysLists.exe
 C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ArraysLists\ArraysLists\obj\Debug\ArraysLists.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ArraysLists\ArraysLists\obj\Debug\ArraysLists.csproj.AssemblyReference.cache
