@@ -1,0 +1,6 @@
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\StringFuctions\StringFuctions\bin\Debug\StringFuctions.exe.config
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\StringFuctions\StringFuctions\bin\Debug\StringFuctions.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\StringFuctions\StringFuctions\bin\Debug\StringFuctions.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\StringFuctions\StringFuctions\obj\Debug\StringFuctions.csproj.CoreCompileInputs.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\StringFuctions\StringFuctions\obj\Debug\StringFuctions.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\StringFuctions\StringFuctions\obj\Debug\StringFuctions.pdb
