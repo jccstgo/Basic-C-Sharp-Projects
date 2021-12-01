@@ -1,0 +1,14 @@
+C:\Users\Jose Carlos\source\repos\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.exe.config
+C:\Users\Jose Carlos\source\repos\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.exe
+C:\Users\Jose Carlos\source\repos\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.pdb
+C:\Users\Jose Carlos\source\repos\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.csproj.AssemblyReference.cache
+C:\Users\Jose Carlos\source\repos\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Jose Carlos\source\repos\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.exe
+C:\Users\Jose Carlos\source\repos\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.exe.config
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\SixPartAssignment\SixPartAssignment\bin\Debug\SixPartAssignment.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.csproj.AssemblyReference.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\SixPartAssignment\SixPartAssignment\obj\Debug\SixPartAssignment.pdb
