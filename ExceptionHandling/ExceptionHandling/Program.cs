@@ -10,44 +10,30 @@ namespace ExceptionHandling
     {
         static void Main(string[] args)
         {
+            //Try/catch block that ensures that the input is ok
             try
             {
+                //List the numbers
                 List<int> numbers = new List<int>() {100,200,300,400,500,900,800,700,600 };
+                //The user input an int number to divide the numbers in the list
                 Console.WriteLine("Input a number to divide each number in the list: ");
                 int numberSelected = Convert.ToInt32(Console.ReadLine());
                 int result;
+                //This foreach take each element in the list and divide by the number selected
                 foreach (int number in numbers) 
                 {
                     result = number / numberSelected;
                     Console.WriteLine("The result is: "+ result);
                 }
-
-                /*Console.WriteLine("Pick a number: ");
-                int numberOne = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Prick a second number: ");
-                int numberTwo = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Dividing the two...");
-                int numberThree = numberOne / numberTwo;
-                Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
-                Console.ReadLine();*/
             }
-            catch (FormatException ex)
-            {
-                Console.WriteLine(ex.Message);
-                return;
-            }
-            catch (DivideByZeroException ex)
-            {
-                Console.WriteLine("don't divide by zero");
-            }
+            //This catch block shows if ocurre a problem in the try block
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-            finally
-            {
-                Console.ReadLine();
-            }
+            //This prints the last line that indicates the end of the try/catch block
+            Console.WriteLine("\nThe program has emerged from the try\\catch block");
+            Console.ReadLine();
 
         }
     }
