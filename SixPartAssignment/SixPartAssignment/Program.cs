@@ -94,8 +94,9 @@ namespace SixPartAssignment
                     Console.WriteLine("Input text is not in the list =)");
                 }
             }
+
             //List of strings that has identical strings in the list
-            List<string> myStringTwoIdenticals_2 = new List<string>() { "aries", "taurus", "gemini", "cancer", "leo", "virgo", "aries", "taurus", "gemini" };
+            List<string> myStringTwoIdenticals_2 = new List<string>() { "aries", "taurus", "gemini", "cancer", "leo", "virgo", "aries", "taurus", "gemini","aries" };
             List<string> myNewString = new List<string>();
             //This foreach evaluates each item in the string list 
             foreach (string myStringTwoIdentical2 in myStringTwoIdenticals_2) 
