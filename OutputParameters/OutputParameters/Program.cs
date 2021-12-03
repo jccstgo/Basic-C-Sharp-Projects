@@ -21,13 +21,13 @@ namespace OutputParameters
                 int outputNumber = 0;
                 //This method have two parameter one is the input (selectedNumber) and the other is the output (outputNumber)
                 myClass.DivideByTwo(selectedNumber, out outputNumber);
-                Console.WriteLine("The result of divide the number by 2 is: " + outputNumber);//Print the result of the operation
-
+                Console.WriteLine("The result of divide "+ selectedNumber + " by 2 is: " + outputNumber);//Print the result of the operation
+                
                 //This is an example about overload a method, the first method don't have parameters and the other have one parameter of input
                 myClass.MultiplyByTwo();//The result of this method is printed in the class "MyClass"
-                myClass.MultiplyByTwo(9);//The result of this method is printed in the class "MyClass
+                myClass.MultiplyByTwo(selectedNumber);//The result of this method is printed in the class "MyClass
 
-                MyStaticClass.AddTwo(19);//This is an example when a Class is static, we only use the methos without instances 
+                MyStaticClass.AddTwo(selectedNumber);//This is an example when a Class is static, we only use the methos without instances 
                 
 
 
