@@ -27,7 +27,7 @@ namespace MethodOptionalParameter
             {
                 Console.WriteLine("\nInput the second year(is optional introduce it): ");
                 int year_2 = Convert.ToInt32(Console.ReadLine());//Convert the input in type integer
-                int isLeap = optional.LeapYear(year_1, year_2);//WE USE THE METHOD "LeapYear" WITH TWO PARAMETERS
+                int isLeap = optional.LeapYear(year_1, year_2);//WE USE THE METHOD "LeapYear" WITH TWO YEARS
                 if (isLeap == 1)//If the variable "isLeap" is 1 the year_1 and year_2 are leap
                 {
                     Console.WriteLine("The years " + year_1 + " and " + year_2 + " are leap");
@@ -48,7 +48,7 @@ namespace MethodOptionalParameter
             else //And the other hand if the user only want use a number we do 
             {
                 optional.LeapYear(year_1);
-                int isLeap = optional.LeapYear(year_1);//WE USE THE METHOD "LeapYear" WITH ONE PARAMETERS
+                int isLeap = optional.LeapYear(year_1);//WE USE THE METHOD "LeapYear" WITH ONE YEAR
                 if (isLeap == 1)//If the variable "isLeap" is 1 the year_1 and year_2 are leap
                 {
                     Console.WriteLine("The years " + year_1 + " and 2022 are leap");
