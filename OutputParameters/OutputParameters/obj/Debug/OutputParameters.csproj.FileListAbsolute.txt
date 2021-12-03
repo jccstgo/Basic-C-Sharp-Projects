@@ -1,0 +1,7 @@
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\OutputParameters\OutputParameters\bin\Debug\OutputParameters.exe.config
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\OutputParameters\OutputParameters\bin\Debug\OutputParameters.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\OutputParameters\OutputParameters\bin\Debug\OutputParameters.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\OutputParameters\OutputParameters\obj\Debug\OutputParameters.csproj.AssemblyReference.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\OutputParameters\OutputParameters\obj\Debug\OutputParameters.csproj.CoreCompileInputs.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\OutputParameters\OutputParameters\obj\Debug\OutputParameters.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\OutputParameters\OutputParameters\obj\Debug\OutputParameters.pdb
