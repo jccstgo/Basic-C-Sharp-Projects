@@ -13,7 +13,7 @@ namespace ParametersByName
             int addTwo = number_1 + 2;//Take the firs number and add 2
             
             //Print the result of the operation in the firs number and shows the second number
-            Console.WriteLine("The first number + 2 is:" + addTwo + " and the second number is: "+number_2);
+            Console.WriteLine(number_1+" + 2 is:" + addTwo + " and the second number is: "+number_2);
             Console.ReadLine();
         }
     }

@@ -11,6 +11,7 @@ namespace ParametersByName
         static void Main(string[] args)
         {
             Names name = new Names();//Intantiate the Class "Names"
+            name.Operation(5, 19);
             name.Operation(number_1: 3, number_2: 13);//Call the method "Operations" specifying the parameters by name
         }
     }

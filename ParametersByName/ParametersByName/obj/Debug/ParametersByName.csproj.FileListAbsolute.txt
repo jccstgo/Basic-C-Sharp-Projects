@@ -1,0 +1,6 @@
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ParametersByName\ParametersByName\bin\Debug\ParametersByName.exe.config
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ParametersByName\ParametersByName\bin\Debug\ParametersByName.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ParametersByName\ParametersByName\bin\Debug\ParametersByName.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ParametersByName\ParametersByName\obj\Debug\ParametersByName.csproj.CoreCompileInputs.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ParametersByName\ParametersByName\obj\Debug\ParametersByName.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\ParametersByName\ParametersByName\obj\Debug\ParametersByName.pdb
