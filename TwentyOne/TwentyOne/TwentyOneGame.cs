@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    class TwentyOneGame : Game
+    public class TwentyOneGame : Game
     {
+        public override void Play() 
+        {
+            Console.WriteLine("Some text");
+            throw new NotFiniteNumberException();
+        }
+
+        public override void ListPlayers() 
+        {
+            Console.WriteLine("21 Players");
+            base.ListPlayers();
+        }
     }
 }

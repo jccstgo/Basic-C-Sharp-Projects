@@ -13,9 +13,9 @@ namespace TwentyOne
             Cards = new List<Card>();
             List<string> Suits = new List<string>() { "Clubs", "Hearts","Diamonds","Spades"};
             List<string> Faces = new List<string>()
-            {
-                "Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","Queen","King","Ace"
-            };
+                {
+                    "Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","Queen","King","Ace"
+                };
 
             foreach (string face in Faces) 
             {

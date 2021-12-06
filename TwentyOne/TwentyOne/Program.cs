@@ -11,9 +11,14 @@ namespace TwentyOne
         static void Main(string[] args)
         {
 
-            TwentyOneGame twentyOneGame = new TwentyOneGame();
-            twentyOneGame.Players = new List<string>() { "Jose", "Carlos", "Cruz"};
-            twentyOneGame.ListPlayers();
+            //TwentyOneGame twentyOneGame = new TwentyOneGame();
+            //twentyOneGame.Players = new List<string>() { "Jose", "Carlos", "Cruz"};
+            //twentyOneGame.ListPlayers();
+
+            TwentyOneGame t = new TwentyOneGame();
+            t.Players = new List<string>() {"Jose", "Carlos", "Cruz" };
+            t.ListPlayers();
+
 
 
             //Deck deck = new Deck();
@@ -21,7 +26,7 @@ namespace TwentyOne
 
             //foreach (Card card in deck.Cards)
             //{
-            //    Console.WriteLine(card.Face + " of " +card.Suit);
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
             //}
             //Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();

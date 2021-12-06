@@ -1,0 +1,7 @@
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Inherit\Inherit\bin\Debug\Inherit.exe.config
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Inherit\Inherit\bin\Debug\Inherit.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Inherit\Inherit\bin\Debug\Inherit.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Inherit\Inherit\obj\Debug\Inherit.csproj.AssemblyReference.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Inherit\Inherit\obj\Debug\Inherit.csproj.CoreCompileInputs.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Inherit\Inherit\obj\Debug\Inherit.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Inherit\Inherit\obj\Debug\Inherit.pdb
