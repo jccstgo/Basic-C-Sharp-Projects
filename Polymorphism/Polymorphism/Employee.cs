@@ -13,10 +13,38 @@ namespace Polymorphism
             Console.WriteLine(message);//Print the message
         }
 
+        public int Id { get; set; }//This is a property name "Id"
+
         public override void SayName()//Override the SayName method from the abstract method in the Class Person
         {
-            Console.WriteLine("The name is====>\n\n");
-            Console.WriteLine("Name: " + firstName + " " + lastName);   //Print the name of the employee     
+            Console.WriteLine("The name is====>");
+            Console.WriteLine("Name: " + firstName + " " + lastName+" Id: "+ Id+"\n\n");   //Print the name of the employee     
+        }
+
+        //This method is a overload implementatio of the operator "=="
+        public static bool operator == (Employee employee1, Employee employee2)
+        {
+            if (employee1.Id == employee2.Id)// Compare the "Id" property between two employees
+            {
+                return true; 
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //This method is a overload implementatio of the operator "!="
+        public static bool operator != (Employee employee1, Employee employee2)
+        {
+            if (employee1.Id != employee2.Id)// Compare the "Id" property between two employees
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }
