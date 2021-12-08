@@ -13,7 +13,7 @@ namespace Polymorphism
             Console.WriteLine(message);//Print the message
         }
 
-        public int Id { get; set; }//This is a property name "Id"
+        public int Id { get; set; }//This is a property named "Id"
 
         public override void SayName()//Override the SayName method from the abstract method in the Class Person
         {

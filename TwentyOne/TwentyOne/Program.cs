@@ -19,13 +19,14 @@ namespace TwentyOne
             //t.Players = new List<string>() {"Jose", "Carlos", "Cruz" };
             //t.ListPlayers();
 
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jose";
-            game += player;
-            game -= player;
-
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Player>();
+            //Player player = new Player();
+            //player.Name = "Jose";
+            //game += player;
+            //game -= player;
+            Card card = new Card();
+            card.Suit = Suit.Clubs;
 
             Deck deck = new Deck();
             deck.Shuffle();
