@@ -25,15 +25,21 @@ namespace Lambda
                 new Employee() {FirstName = "Karen", LastName="Perez", Id=10 }
             };
 
-            //In this section we create a new list of employees with the first name "Joe" 
-            Employee tmpEmployee;
+            
+            List<Employee> tmpEmployees = new List<Employee>();
+            //wwe create a new list of employees with the first name "Joe"            
             foreach (Employee employee in employees)
             {
                 if (employee.FirstName == "Joe")//If the first name is Joe then add to tmpEmployee
                 {
-                    tmpEmployee = employee;
-                    Console.WriteLine("The new employee in the list: "+tmpEmployee.FirstName+" "+tmpEmployee.LastName+" "+tmpEmployee.Id+ "\n");
+                    tmpEmployees.Add(employee);                   
                 }                    
+            }
+            //Just to verify, shows the list printing the elements of tmpEmployees
+            Console.WriteLine("\n\n********LIST OF EMPLOYEES WHIT NAME JOE*********");
+            foreach (Employee tmpEmployee in tmpEmployees)
+            {
+                Console.WriteLine("The new employee in the list: " + tmpEmployee.FirstName + " " + tmpEmployee.LastName + " " + tmpEmployee.Id + "\n");
             }
 
             Console.WriteLine("\n\n*******LAMBDA**********");

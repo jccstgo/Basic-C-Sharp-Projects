@@ -8,10 +8,10 @@ namespace TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway
     {
+        public TwentyOneDealer Dealer { get; set; }
         public override void Play() 
         {
-            Console.WriteLine("Some text");
-            throw new NotFiniteNumberException();
+            Dealer = new TwentyOneDealer();
         }
 
         public override void ListPlayers() 

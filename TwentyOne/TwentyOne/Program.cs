@@ -11,47 +11,31 @@ namespace TwentyOne
         static void Main(string[] args)
         {
 
-            //TwentyOneGame twentyOneGame = new TwentyOneGame();
-            //twentyOneGame.Players = new List<string>() { "Jose", "Carlos", "Cruz"};
-            //twentyOneGame.ListPlayers();
-
-            //TwentyOneGame t = new TwentyOneGame();
-            //t.Players = new List<string>() {"Jose", "Carlos", "Cruz" };
-            //t.ListPlayers();
-
-            //Game game = new TwentyOneGame();
-            //game.Players = new List<Player>();
-            //Player player = new Player();
-            //player.Name = "Jose";
-            //game += player;
-            //game -= player;
-            //Card card1 = new Card();
-            //Card card2 = card1;
-            //card1.Face = Face.Nine;
-            //card2.Face = Face.Queen;
-
-            //Console.WriteLine(card1.Face);
-
-
-            Deck deck = new Deck();
-            //int count = deck.Cards.Count(x => x.Face == Face.Queen);
-
-            List<Card> newListCards = deck.Cards.Where(x => x.Face == Face.Seven).ToList();
-
-            foreach (Card card in newListCards)
+            Console.WriteLine("Welcome to the Casino. Let's start by telling me your name.");
+            string playerName = Console.ReadLine();
+            
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Hello {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya") 
             {
-                Console.WriteLine(card.Face);
+                Player player = new Player(playerName, bank);
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing");
             }
             
-
-            //deck.Shuffle();
-
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-            //Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
+            Console.Read();
         }
 
        
