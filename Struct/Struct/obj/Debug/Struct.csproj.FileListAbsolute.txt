@@ -1,0 +1,6 @@
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Struct\Struct\bin\Debug\Struct.exe.config
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Struct\Struct\bin\Debug\Struct.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Struct\Struct\bin\Debug\Struct.pdb
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Struct\Struct\obj\Debug\Struct.csproj.CoreCompileInputs.cache
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Struct\Struct\obj\Debug\Struct.exe
+C:\Users\Jose Carlos\Documents\GitHub\Basic-C-Sharp-Projects\Struct\Struct\obj\Debug\Struct.pdb

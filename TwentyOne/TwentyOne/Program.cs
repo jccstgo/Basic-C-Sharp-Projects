@@ -25,17 +25,32 @@ namespace TwentyOne
             //player.Name = "Jose";
             //game += player;
             //game -= player;
-            Card card = new Card();
-            card.Suit = Suit.Clubs;
+            //Card card1 = new Card();
+            //Card card2 = card1;
+            //card1.Face = Face.Nine;
+            //card2.Face = Face.Queen;
+
+            //Console.WriteLine(card1.Face);
+
 
             Deck deck = new Deck();
-            deck.Shuffle();
+            //int count = deck.Cards.Count(x => x.Face == Face.Queen);
 
-            foreach (Card card in deck.Cards)
+            List<Card> newListCards = deck.Cards.Where(x => x.Face == Face.Seven).ToList();
+
+            foreach (Card card in newListCards)
             {
-                Console.WriteLine(card.Face + " of " + card.Suit);
+                Console.WriteLine(card.Face);
             }
-            Console.WriteLine(deck.Cards.Count);
+            
+
+            //deck.Shuffle();
+
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+            //Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }
 
