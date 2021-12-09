@@ -8,10 +8,15 @@ namespace TwentyOne
 {
     public struct Card
     {
-            public Suit Suit { get; set; }
-            public Face Face { get; set; }
-        
-        
+        public Suit Suit { get; set; }
+        public Face Face { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} if {1}", Face, Suit);
+        }
+
+
     }
 
     public enum Suit 
