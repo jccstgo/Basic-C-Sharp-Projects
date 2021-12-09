@@ -12,7 +12,9 @@ namespace Polymorphism
         public string firstName { get; set; }
         public string lastName { get; set; }
 
+
         public abstract void SayName();//Abstract method that must be implemented in inherit clases
+
 
 
     }

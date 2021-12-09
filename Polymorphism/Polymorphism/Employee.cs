@@ -12,7 +12,7 @@ namespace Polymorphism
         {
             Console.WriteLine(message);//Print the message
         }
-
+                
         public int Id { get; set; }//This is a property named "Id"
 
         public override void SayName()//Override the SayName method from the abstract method in the Class Person
@@ -20,6 +20,8 @@ namespace Polymorphism
             Console.WriteLine("The name is====>");
             Console.WriteLine("Name: " + firstName + " " + lastName+" Id: "+ Id+"\n\n");   //Print the name of the employee     
         }
+
+        
 
         //This method is a overload implementatio of the operator "=="
         public static bool operator == (Employee employee1, Employee employee2)

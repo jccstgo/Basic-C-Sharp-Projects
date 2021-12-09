@@ -9,5 +9,6 @@ namespace Polymorphism
     interface IQuittable//Interface 
     {
         void Quit(string message);//This method must be implemented
+        
     }
 }
