@@ -16,6 +16,7 @@ namespace ConstructorChain
             //Create a variable (List of strings) using "var"
             var variable = new List<string>() {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes","Sabado" };
             Construct construct1 = new Construct(variable[0]);
+            Construct construct2 = new Construct(variable[0], variable[3]);
 
         }
     }

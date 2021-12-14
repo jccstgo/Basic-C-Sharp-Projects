@@ -12,6 +12,7 @@ namespace ConstructorChain
         public Construct(string element1) : this(element1, "Domingo")
         { 
         }
+
         //Constructor of the class with two parameters
         public Construct(string element1, string element2)
         {
