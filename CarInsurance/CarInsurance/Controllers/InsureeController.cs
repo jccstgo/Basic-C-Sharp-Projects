@@ -35,8 +35,7 @@ namespace CarInsurance.Controllers
             return View(insurees);
         }
 
-        // GET: Insuree/Create
-        public ActionResult Create()
+        public ActionResult Create() 
         {
             return View();
         }
@@ -49,13 +48,68 @@ namespace CarInsurance.Controllers
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBrith,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insurees insurees)
         {
             if (ModelState.IsValid)
-            {
+            {                
+                int extraQuote = Calculate(insurees);
+                insurees.Quote = extraQuote;
                 db.Insurees.Add(insurees);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
             return View(insurees);
+        }
+
+        // GET: Insuree/Edit/5
+        public int Calculate(Insurees insurees)
+        {
+            int quote = 50;
+            int old = DateTime.Now.Year - insurees.DateOfBrith.Year;
+            
+            if (old <= 18)
+            {
+                quote += 100;
+            }
+            else if (old >= 19 && old <= 25)
+            {
+                quote += 50;
+            }
+            else
+            {
+                quote += 25;
+            }
+
+            if (insurees.CarYear < 2000 || insurees.CarYear>2015)
+            {
+                quote += 25;
+            }
+
+            if (insurees.CarMake.ToUpper() == "PORSCHE") 
+            {
+                quote += 25;
+                if (insurees.CarModel.ToUpper() == "911 CARRERA")
+                {
+                    quote += 25;
+                }
+            }
+
+            if (insurees.SpeedingTickets > 0)
+            {
+                quote = quote + (10 * insurees.SpeedingTickets);
+            }
+
+            if (insurees.DUI)
+            {
+                quote = (int)(quote * 1.25);
+            }
+
+            if (insurees.CoverageType) 
+            {
+                quote = (int)(quote * 1.5);
+            }
+            
+
+            Console.WriteLine();
+            return quote;
         }
 
         // GET: Insuree/Edit/5
@@ -114,6 +168,7 @@ namespace CarInsurance.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
 
         protected override void Dispose(bool disposing)
         {

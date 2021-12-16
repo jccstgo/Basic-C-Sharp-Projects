@@ -27,4 +27,6 @@ namespace CarInsurance.Models
         public bool CoverageType { get; set; }
         public decimal Quote { get; set; }
     }
+
+   
 }
